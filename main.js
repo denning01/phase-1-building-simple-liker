@@ -2,8 +2,13 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
+
 // Your JavaScript code goes here!
 
+const mediaPost = document.getElementsByClassName("media-post")[0];
+const hiddenModal = document.createElement("div")
+hiddenModal.classList.add("hidden")
+mediaPost.appendChild(hiddenModal)
 
 
 
